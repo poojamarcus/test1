@@ -1,6 +1,6 @@
 trigger:
 - main
-pool: par1
+pool: test
 - task: Maven@3
 inputs:
 mavenPomFile: 'pom.xml'
